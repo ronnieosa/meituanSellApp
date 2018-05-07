@@ -1,0 +1,95 @@
+.login-container {
+  overflow: hidden;
+  background: #fff;
+}
+.login-container .title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  border-bottom: 4px solid #DDD8CE;
+}
+.login-container .title-container .title {
+  display: block;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  position: relative;
+}
+.login-container .title-container .title .react {
+  padding-top: 14px;
+  padding-bottom: 10px;
+  display: block;
+  height: 100%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.login-container .title-container .title .active {
+  color: #06c1ae;
+}
+.login-container .title-container .slide {
+  width: 178px;
+  left: 10px;
+  position: absolute;
+  bottom: -4px;
+  border-bottom: 4px solid #06c1ae;
+}
+.login-container .input-container {
+  background: #fff;
+  margin: 0;
+  overflow: hidden;
+  font-size: inherit;
+  font-weight: 400;
+  position: relative;
+}
+.login-container .input-container .input {
+  margin: 0;
+  padding-left: 10px;
+  border: 0;
+}
+.login-container .input-container .input .area {
+  padding: 14px 10px;
+  margin: 0;
+  border-bottom: 1px solid #DDD8CE;
+  overflow: hidden;
+  font-size: inherit;
+  font-weight: 400;
+  position: relative;
+}
+.login-container .input-container .input .area .input-user {
+  width: 100%;
+  display: block;
+  border: 0;
+  height: 30px;
+  margin: -8px 0;
+  text-indent: .1rem;
+  line-height: 1;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 0;
+}
+.login-container .input-container .input .area .input-user:focus {
+  background: #ededed;
+}
+.btn-wrapper {
+  margin: 14px 10px;
+}
+.btn-wrapper .button-login {
+  height: 45px;
+  line-height: 45px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 0 16px;
+  border-radius: 3px;
+  color: #fff;
+  border: 0;
+  background-color: #06c1ae;
+  vertical-align: middle;
+  box-sizing: border-box;
+  cursor: pointer;
+}

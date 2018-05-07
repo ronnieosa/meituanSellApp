@@ -1,0 +1,73 @@
+.list-items {
+  margin: 0;
+  border-bottom: 1px solid #DDD8CE;
+  overflow: hidden;
+  font-size: inherit;
+  font-weight: 400;
+  position: relative;
+}
+.list-items .react {
+  display: block;
+  color: inherit;
+  height: 100%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 10px 5px 10px 0;
+}
+.list-items .react .react-container .re-img {
+  float: left;
+  width: 90px;
+  height: 82px;
+  text-align: center;
+  overflow: hidden;
+}
+.list-items .react .react-container .re-img img {
+  width: 100%;
+  height: 100%;
+}
+.list-items .react .react-container .re-info {
+  float: left;
+  width: 255px;
+  height: 82px;
+  margin-left: 10px;
+}
+.list-items .react .react-container .re-info .title {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333;
+}
+.list-items .react .react-container .re-info .sub-title {
+  font-size: 12px;
+  height: 28px;
+  margin-bottom: 4px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-items .react .react-container .re-info .price .youhui {
+  font-size: 19px;
+  color: #06c1ae;
+}
+.list-items .react .react-container .re-info .price .youhuis {
+  font-size: 13px;
+  color: #06c1ae;
+}
+.list-items .react .react-container .re-info .price .yuanjia {
+  color: #666;
+  font-size: 12px;
+}
+.list-items .react .react-container .re-info .price .yuanjias {
+  color: #666;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.list-items .react .react-container .re-info .price .line-right {
+  float: right;
+  color: #666;
+  font-size: 12px;
+  margin-top: 5px;
+}

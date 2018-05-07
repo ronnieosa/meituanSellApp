@@ -1,0 +1,40 @@
+.ullist {
+  width: 100%;
+  background: #fff;
+}
+.ullist .list-item {
+  width: 20%;
+  padding: 10px 0 0 0;
+}
+.ullist .list-item img {
+  display: block;
+  width: 45px;
+  margin: 0 auto;
+}
+.ullist .list-item span {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+}
+.index-continer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #fff;
+}
+.index-continer ul {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.index-continer li {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background: #ccc;
+  margin: 0 3px;
+}
+.index-continer li.selected {
+  background-color: #06c1ae;
+}

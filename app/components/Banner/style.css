@@ -1,0 +1,7 @@
+.banner-container {
+  height: 50px;
+  text-align: center;
+}
+.banner-container img {
+  width: 320px;
+}

@@ -1,0 +1,52 @@
+.newcity-sele{
+  padding: 0 10px;
+  .list-title{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .list-div{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #DDD8CE;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #FDFDFC;
+    .table{
+      min-height: 40px;
+      position: relative;
+      overflow: hidden;
+      z-index: 0;
+      li{
+        display: inline-block;
+        width: 25%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center;
+        border-bottom: 1px solid #ddd8ce;
+        margin-bottom: -1px;
+        float: left;
+        position: relative;
+        z-index: 10;
+      }
+    }
+    .table:before {
+      content: '';
+      position: absolute;
+      width: 25%;
+      left: 25%;
+      height: 100%;
+      border-left: 1px solid #ddd8ce;
+      border-right: 1px solid #ddd8ce;
+    }
+    .table:after {
+      content: '';
+      position: absolute;
+      width: 10%;
+      left: 75%;
+      height: 100%;
+      border-left: 1px solid #ddd8ce;
+      border-right: none;
+    }
+  }
+}
